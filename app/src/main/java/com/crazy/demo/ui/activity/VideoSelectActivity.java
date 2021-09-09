@@ -45,7 +45,6 @@ import java.util.Set;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/03/01
  *    desc   : 选择视频
  */

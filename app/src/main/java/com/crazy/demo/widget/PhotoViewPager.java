@@ -8,7 +8,6 @@ import com.crazy.widget.layout.NestedViewPager;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/05/07
  *    desc   : ViewPager 中使用 PhotoView 时出现 pointerIndex out of range 异常
  */

@@ -37,7 +37,6 @@ import static androidx.viewpager.widget.ViewPager.SCROLL_STATE_SETTLING;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/02/12
  *    desc   : 省市区选择对话框
  *    doc    : https://baijiahao.baidu.com/s?id=1615894776741007967

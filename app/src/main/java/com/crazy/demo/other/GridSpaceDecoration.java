@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/07/25
  *    desc   : 图片选择列表分割线
  */

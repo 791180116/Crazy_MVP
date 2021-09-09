@@ -12,7 +12,6 @@ import com.crazy.demo.R;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/08/28
  *    desc   : 引导页适配器
  */

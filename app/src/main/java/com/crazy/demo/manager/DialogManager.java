@@ -13,7 +13,6 @@ import java.util.List;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2021/01/29
  *    desc   : Dialog 显示管理类
  */

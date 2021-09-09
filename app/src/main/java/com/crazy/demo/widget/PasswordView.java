@@ -12,7 +12,6 @@ import androidx.annotation.Nullable;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2018/12/2
  *    desc   : 密码遮挡自定义控件
  */

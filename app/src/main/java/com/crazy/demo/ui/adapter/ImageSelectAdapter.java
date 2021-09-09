@@ -18,7 +18,6 @@ import java.util.List;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/07/24
  *    desc   : 图片选择适配器
  */

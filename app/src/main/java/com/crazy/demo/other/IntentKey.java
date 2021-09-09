@@ -2,7 +2,6 @@ package com.crazy.demo.other;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/05/09
  *    desc   : Intent Key 管理
  */

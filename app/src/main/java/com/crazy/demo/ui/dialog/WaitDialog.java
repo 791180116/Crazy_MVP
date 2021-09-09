@@ -11,7 +11,6 @@ import com.crazy.demo.R;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2018/12/2
  *    desc   : 等待加载对话框
  */

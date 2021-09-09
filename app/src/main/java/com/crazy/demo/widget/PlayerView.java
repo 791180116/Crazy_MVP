@@ -42,7 +42,6 @@ import java.util.Locale;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/02/16
  *    desc   : 视频播放控件
  */

@@ -22,7 +22,6 @@ import java.util.List;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/03/01
  *    desc   : 视频选择适配器
  */

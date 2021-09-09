@@ -12,7 +12,6 @@ import com.crazy.demo.ui.activity.RestartActivity;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/02/03
  *    desc   : Crash 处理类
  */

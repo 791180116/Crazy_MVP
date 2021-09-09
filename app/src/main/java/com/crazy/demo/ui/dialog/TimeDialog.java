@@ -19,7 +19,6 @@ import java.util.Calendar;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/08/17
  *    desc   : 时间选择对话框
  */

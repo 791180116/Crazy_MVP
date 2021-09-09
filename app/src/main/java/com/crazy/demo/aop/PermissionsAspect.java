@@ -15,7 +15,6 @@ import java.util.List;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/12/06
  *    desc   : 权限申请切面
  */

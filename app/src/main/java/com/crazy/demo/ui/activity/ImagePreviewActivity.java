@@ -31,7 +31,6 @@ import me.relex.circleindicator.CircleIndicator;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/03/05
  *    desc   : 查看大图
  */

@@ -11,7 +11,6 @@ import com.crazy.demo.R;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2018/11/05
  *    desc   : 可进行拷贝的副本
  */

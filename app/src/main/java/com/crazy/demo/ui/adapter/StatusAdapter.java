@@ -12,7 +12,7 @@ import com.crazy.demo.R;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
+ *
  *    time   : 2019/09/22
  *    desc   : 状态数据列表
  */

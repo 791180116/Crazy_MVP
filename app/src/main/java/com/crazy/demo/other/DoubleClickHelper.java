@@ -4,7 +4,6 @@ import android.os.SystemClock;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2018/10/18
  *    desc   : 双击判断工具类
  */

@@ -10,7 +10,6 @@ import timber.log.Timber;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/11/04
  *    desc   : 自定义 Toast 拦截器（用于追踪 Toast 调用的位置）
  */

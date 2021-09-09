@@ -18,7 +18,6 @@ import com.hjq.toast.ToastUtils;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/02/06
  *    desc   : 身份校验对话框
  */

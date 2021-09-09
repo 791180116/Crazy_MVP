@@ -24,7 +24,6 @@ import java.util.List;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2018/12/2
  *    desc   : 菜单选择框
  */

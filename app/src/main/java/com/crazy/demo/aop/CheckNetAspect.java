@@ -17,7 +17,6 @@ import org.aspectj.lang.annotation.Pointcut;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/01/11
  *    desc   : 网络检测切面
  */

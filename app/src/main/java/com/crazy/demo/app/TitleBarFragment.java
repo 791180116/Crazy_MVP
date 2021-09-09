@@ -13,7 +13,6 @@ import com.hjq.bar.TitleBar;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/10/31
  *    desc   : 带标题栏的 Fragment 基类
  */

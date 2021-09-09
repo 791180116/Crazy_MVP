@@ -10,7 +10,6 @@ import timber.log.Timber;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/12/06
  *    desc   : 防重复点击切面
  */

@@ -13,7 +13,6 @@ import com.crazy.demo.R;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/08/28
  *    desc   : 图片预览适配器
  */

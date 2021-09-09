@@ -44,7 +44,6 @@ import java.util.regex.Pattern;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/06/27
  *    desc   : 崩溃捕捉界面
  */

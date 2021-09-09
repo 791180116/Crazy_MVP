@@ -21,7 +21,6 @@ import java.util.List;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/07/27
  *    desc   : 相册专辑选取对话框
  */

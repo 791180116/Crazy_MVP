@@ -7,7 +7,6 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2018/10/18
  *    desc   : 支持监听渐变的 CollapsingToolbarLayout
  */

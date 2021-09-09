@@ -19,7 +19,7 @@ import timber.log.Timber;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
+ *
  *    time   : 2019/12/06
  *    desc   : Debug 日志切面
  */

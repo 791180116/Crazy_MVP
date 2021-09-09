@@ -21,7 +21,6 @@ import java.io.File;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/02/16
  *    desc   : 视频播放界面
  */

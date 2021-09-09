@@ -24,7 +24,7 @@ import com.scwang.smart.refresh.layout.listener.OnRefreshListener;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
+ *
  *    time   : 2020/10/24
  *    desc   : 浏览器 Fragment
  */

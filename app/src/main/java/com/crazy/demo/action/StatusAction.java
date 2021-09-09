@@ -16,7 +16,6 @@ import com.crazy.demo.R;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/12/08
  *    desc   : 状态布局意图
  */

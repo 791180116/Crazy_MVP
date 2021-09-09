@@ -23,7 +23,6 @@ import java.io.InputStream;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/12/15
  *    desc   : Glide 全局配置
  */

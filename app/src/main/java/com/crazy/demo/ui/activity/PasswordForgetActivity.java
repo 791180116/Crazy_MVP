@@ -22,7 +22,6 @@ import com.hjq.http.listener.HttpCallback;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/02/27
  *    desc   : 忘记密码
  */

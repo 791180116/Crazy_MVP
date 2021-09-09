@@ -7,7 +7,6 @@ import java.lang.annotation.Target;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/01/11
  *    desc   : 网络检测注解
  */

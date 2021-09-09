@@ -39,7 +39,6 @@ import java.util.List;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2018/12/02
  *    desc   : 对话框使用案例
  */

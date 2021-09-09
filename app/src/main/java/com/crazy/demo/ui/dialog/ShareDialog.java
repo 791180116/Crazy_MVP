@@ -28,7 +28,6 @@ import java.util.List;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/03/23
  *    desc   : 分享对话框
  */

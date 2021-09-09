@@ -6,7 +6,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2020/01/11
  *    desc   : 线程池管理类
  */

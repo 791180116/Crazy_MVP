@@ -14,7 +14,6 @@ import okhttp3.Call;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/12/15
  *    desc   : OkHttp 加载模型
  */

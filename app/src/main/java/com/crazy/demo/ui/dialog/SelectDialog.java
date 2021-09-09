@@ -26,7 +26,6 @@ import java.util.List;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/10/09
  *    desc   : 单选或者多选对话框
  */

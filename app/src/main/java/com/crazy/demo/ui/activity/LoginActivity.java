@@ -43,7 +43,6 @@ import okhttp3.Call;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2018/10/18
  *    desc   : 登录界面
  */

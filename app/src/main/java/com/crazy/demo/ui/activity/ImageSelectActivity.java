@@ -40,7 +40,6 @@ import java.util.Set;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/07/24
  *    desc   : 选择图片
  */

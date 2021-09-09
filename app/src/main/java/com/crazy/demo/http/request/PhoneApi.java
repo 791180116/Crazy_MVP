@@ -4,7 +4,6 @@ import com.hjq.http.config.IRequestApi;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/12/07
  *    desc   : 修改手机
  */

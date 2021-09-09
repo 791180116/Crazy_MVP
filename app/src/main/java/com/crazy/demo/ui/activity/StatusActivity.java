@@ -13,7 +13,6 @@ import com.crazy.demo.ui.dialog.MenuDialog;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/04/17
  *    desc   : 加载使用案例
  */

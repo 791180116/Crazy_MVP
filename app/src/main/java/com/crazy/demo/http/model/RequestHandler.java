@@ -41,7 +41,6 @@ import okhttp3.ResponseBody;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/12/07
  *    desc   : 请求处理类
  */

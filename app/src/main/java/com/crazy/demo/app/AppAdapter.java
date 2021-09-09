@@ -16,7 +16,6 @@ import java.util.List;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2018/12/19
  *    desc   : 业务 RecyclerView 适配器基类
  */

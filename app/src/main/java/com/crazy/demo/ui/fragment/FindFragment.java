@@ -19,7 +19,7 @@ import com.crazy.demo.ui.activity.HomeActivity;
 
 /**
  * author : NG_crazy
- * github : https://github.com/getActivity/AndroidProject
+ * 
  * time   : 2018/10/18
  * desc   : 发现 Fragment
  */

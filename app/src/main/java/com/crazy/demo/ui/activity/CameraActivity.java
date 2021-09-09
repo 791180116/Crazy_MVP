@@ -28,7 +28,6 @@ import java.util.Locale;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/12/18
  *    desc   : 拍摄图片、视频
  */

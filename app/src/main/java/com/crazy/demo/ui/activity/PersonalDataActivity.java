@@ -36,7 +36,6 @@ import java.util.Locale;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/04/20
  *    desc   : 个人资料
  */

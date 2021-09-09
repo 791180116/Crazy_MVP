@@ -4,7 +4,7 @@ import com.crazy.demo.BuildConfig;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
+ *
  *    time   : 2019/09/02
  *    desc   : App 配置管理类
  */

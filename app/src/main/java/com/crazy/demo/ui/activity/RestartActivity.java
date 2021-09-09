@@ -11,7 +11,7 @@ import com.crazy.demo.R;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
+ *
  *    time   : 2020/11/29
  *    desc   : 重启应用
  */

@@ -8,7 +8,6 @@ import java.math.BigDecimal;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/03/01
  *    desc   : 应用缓存管理
  */

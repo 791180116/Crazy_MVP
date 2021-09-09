@@ -2,7 +2,6 @@ package com.crazy.demo.http.model;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/12/07
  *    desc   : 统一接口数据结构
  */

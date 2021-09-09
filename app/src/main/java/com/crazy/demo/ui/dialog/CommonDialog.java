@@ -15,7 +15,6 @@ import com.crazy.demo.R;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/09/21
  *    desc   : 项目通用 Dialog 布局封装
  */

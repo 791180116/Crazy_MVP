@@ -25,7 +25,6 @@ import com.hjq.http.listener.HttpCallback;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/03/01
  *    desc   : 设置界面
  */

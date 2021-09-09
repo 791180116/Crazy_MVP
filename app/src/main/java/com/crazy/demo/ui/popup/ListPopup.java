@@ -23,7 +23,6 @@ import java.util.List;
 
 /**
  *    author : NG_crazy
- *    github : https://github.com/getActivity/AndroidProject
  *    time   : 2019/10/18
  *    desc   : 列表弹窗
  */
