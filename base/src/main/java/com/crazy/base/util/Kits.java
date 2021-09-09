@@ -1,6 +1,5 @@
 package com.crazy.base.util;
 
-import android.Manifest;
 import android.app.ActivityManager;
 import android.content.ComponentName;
 import android.content.Context;
@@ -13,8 +12,6 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
-
-import androidx.core.app.ActivityCompat;
 
 import java.io.BufferedReader;
 import java.io.Closeable;

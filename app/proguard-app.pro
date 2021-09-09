@@ -17,5 +17,5 @@
 
 # 不混淆被 DebugLog 注解的方法信息
 -keepclassmembernames class ** {
-    @com.crazy.demo.aop.DebugLog <methods>;
+    @com.aimo.demo.aop.DebugLog <methods>;
 }

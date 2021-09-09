@@ -11,6 +11,7 @@ import com.crazy.demo.R;
 import com.crazy.demo.aop.SingleClick;
 import com.crazy.demo.ui.activity.AboutActivity;
 import com.crazy.demo.ui.activity.BrowserActivity;
+import com.crazy.demo.ui.activity.Correction2Activity;
 import com.crazy.demo.ui.activity.DialogActivity;
 import com.crazy.demo.ui.activity.GuideActivity;
 import com.crazy.demo.ui.activity.HomeActivity;
@@ -34,9 +35,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *    author : NG_crazy
- *    time   : 2018/10/18
- *    desc   : 我的 Fragment
+ * author : NG_crazy
+ * time   : 2018/10/18
+ * desc   : 我的 Fragment
  */
 public final class MeFragment extends TitleBarFragment<HomeActivity> {
 
@@ -59,7 +60,7 @@ public final class MeFragment extends TitleBarFragment<HomeActivity> {
         setOnClickListener(R.id.btn_me_dialog, R.id.btn_me_hint, R.id.btn_me_login, R.id.btn_me_register, R.id.btn_me_forget,
                 R.id.btn_me_reset, R.id.btn_me_change, R.id.btn_me_personal, R.id.btn_message_setting, R.id.btn_me_about,
                 R.id.btn_me_guide, R.id.btn_me_browser, R.id.btn_me_image_select, R.id.btn_me_image_preview,
-                R.id.btn_me_video_select, R.id.btn_me_video_play, R.id.btn_me_crash, R.id.btn_me_pay);
+                R.id.btn_me_video_select, R.id.btn_me_video_play, R.id.btn_me_crash, R.id.btn_me_pay, R.id.btn_涂鸦);
     }
 
     @Override
@@ -199,6 +200,8 @@ public final class MeFragment extends TitleBarFragment<HomeActivity> {
                     })
                     .show();
 
+        } else if (viewId == R.id.btn_涂鸦) {
+            startActivity(Correction2Activity.class);
         }
     }
 

@@ -1,4 +1,6 @@
+include ':aimo'
 include ':app'
 include ':base'
 include ':widget'
 include ':umeng'
+include ':doodle'

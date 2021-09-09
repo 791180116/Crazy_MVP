@@ -23,7 +23,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.crazy.base.R;
 
 /**
  *    author : NG_crazy

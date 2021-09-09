@@ -5,9 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 
 import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
@@ -20,8 +18,6 @@ import com.crazy.base.action.ClickAction;
 import com.crazy.base.action.HandlerAction;
 import com.crazy.base.action.KeyboardAction;
 import com.crazy.base.action.ResourcesAction;
-import com.crazy.base.mvp.IPresent;
-import com.crazy.base.mvp.LazyFragment;
 import com.crazy.base.mvp.XFragment;
 
 import java.util.List;

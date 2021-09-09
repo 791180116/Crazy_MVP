@@ -43,7 +43,6 @@ import com.crazy.base.action.ClickAction;
 import com.crazy.base.action.HandlerAction;
 import com.crazy.base.action.KeyboardAction;
 import com.crazy.base.action.ResourcesAction;
-import com.crazy.base.R;
 
 import java.lang.ref.SoftReference;
 import java.util.ArrayList;
