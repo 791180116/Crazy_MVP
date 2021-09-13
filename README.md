@@ -1,9 +1,7 @@
 #自用mvp 在下面练个开源库基础上修改的 如有版权问题请联系修改
-*借鉴的AndroidProject（https://github.com/getActivity/AndroidProject）和XDroidMvp（https://github.com/limedroid/XDroidMvp） 
+*借鉴的AndroidProject（https://github.com/getActivity/AndroidProject）和 XDroidMvp（https://github.com/limedroid/XDroidMvp） 
 # 安卓技术中台
 #XDroidMvp 轻量级的Android MVP快速开发框架
-
-![](picture/demo_code.png)
 
 #### 常用界面
 
