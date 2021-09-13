@@ -11,8 +11,8 @@ import androidx.annotation.RawRes;
 import androidx.annotation.StringRes;
 import androidx.core.content.ContextCompat;
 
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.widget.StatusLayout;
-import com.crazy.demo.R;
 
 /**
  *    author : NG_crazy

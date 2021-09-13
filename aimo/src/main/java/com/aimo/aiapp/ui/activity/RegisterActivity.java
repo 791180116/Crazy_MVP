@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 
 import com.aimo.aiapp.aop.DebugLog;
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.aimo.aiapp.http.model.HttpData;
 import com.aimo.aiapp.http.request.GetCodeApi;
 import com.aimo.aiapp.http.request.RegisterApi;
@@ -24,7 +24,7 @@ import com.aimo.aiapp.manager.InputTextManager;
 import com.crazy.widget.view.CountdownView;
 import com.crazy.widget.view.SubmitButton;
 import com.gyf.immersionbar.ImmersionBar;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.http.EasyHttp;
 import com.hjq.http.listener.HttpCallback;
 

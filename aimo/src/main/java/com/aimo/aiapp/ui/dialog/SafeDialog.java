@@ -11,7 +11,7 @@ import com.aimo.aiapp.http.request.GetCodeApi;
 import com.aimo.aiapp.http.request.VerifyCodeApi;
 import com.crazy.base.BaseDialog;
 import com.crazy.widget.view.CountdownView;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.http.EasyHttp;
 import com.hjq.http.listener.OnHttpListener;
 import com.hjq.toast.ToastUtils;

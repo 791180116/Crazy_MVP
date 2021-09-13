@@ -37,7 +37,7 @@ import com.crazy.base.BaseActivity;
 import com.crazy.base.BaseDialog;
 import com.crazy.base.action.ActivityAction;
 import com.crazy.widget.layout.NestedScrollWebView;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;
 

@@ -15,11 +15,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.AppAdapter;
+import com.aimo.app.base.AppAdapter;
 import com.crazy.base.BaseAdapter;
 import com.crazy.base.BaseDialog;
 import com.google.android.material.tabs.TabLayout;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

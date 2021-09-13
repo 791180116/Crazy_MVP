@@ -10,12 +10,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.aimo.aiapp.app.AppAdapter;
+import com.aimo.app.base.AppAdapter;
 import com.aimo.aiapp.other.ArrowDrawable;
 import com.crazy.base.BaseAdapter;
 import com.crazy.base.BasePopupWindow;
 import com.crazy.base.action.AnimAction;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

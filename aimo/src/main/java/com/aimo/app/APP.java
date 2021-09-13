@@ -1,4 +1,6 @@
-package com.aimo.aiapp.app;
+package com.aimo.app;
+
+import static com.aimo.aiapp.other.AppConfig.isDebug;
 
 import android.app.Activity;
 import android.app.Application;
@@ -26,9 +28,11 @@ import com.aimo.aiapp.manager.ActivityManager;
 import com.aimo.aiapp.other.DebugLoggerTree;
 import com.aimo.aiapp.other.SmartBallPulseFooter;
 import com.aimo.aiapp.other.ToastInterceptor;
+import com.aimo.sdk.Aimo;
+import com.blankj.utilcode.util.Utils;
 import com.hjq.bar.TitleBar;
 import com.hjq.bar.initializer.LightBarInitializer;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.http.EasyConfig;
 import com.hjq.permissions.XXPermissions;
 import com.hjq.toast.ToastUtils;
@@ -53,7 +57,8 @@ public final class APP extends Application {
         super.onCreate();
         application = this;
         initSdk(this);
-        //Utils.init(this);
+        Utils.init(this);
+        Aimo.INSTANCE.init(this);
     }
 
     @Override
@@ -75,7 +80,7 @@ public final class APP extends Application {
      */
     public static void initSdk(Application application) {
         // 设置调试模式
-        XXPermissions.setDebugMode(AppConfig.isDebug());
+        XXPermissions.setDebugMode(isDebug());
 
         // 初始化吐司
         ToastUtils.init(application, new ToastBlackStyle(application) {
@@ -112,7 +117,7 @@ public final class APP extends Application {
         CrashHandler.register(application);
 
         // Bugly 异常捕捉
-        CrashReport.initCrashReport(application, AppConfig.getBuglyId(), AppConfig.isDebug());
+        CrashReport.initCrashReport(application, AppConfig.getBuglyId(), isDebug());
 
         // 设置全局的 Header 构建器
         SmartRefreshLayout.setDefaultRefreshHeaderCreator((context, layout) ->
@@ -142,7 +147,7 @@ public final class APP extends Application {
 
         EasyConfig.with(okHttpClient)
                 // 是否打印日志
-                .setLogEnabled(AppConfig.isLogEnable())
+                .setLogEnabled(true)
                 // 设置服务器配置
                 .setServer(new RequestServer())
                 // 设置请求处理策略

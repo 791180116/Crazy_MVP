@@ -3,7 +3,7 @@ package com.aimo.aiapp.ui.popup;
 import android.content.Context;
 
 import com.crazy.base.BasePopupWindow;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 /**
  *    author : NG_crazy

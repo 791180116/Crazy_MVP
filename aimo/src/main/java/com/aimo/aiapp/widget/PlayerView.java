@@ -34,7 +34,7 @@ import androidx.lifecycle.LifecycleOwner;
 import com.airbnb.lottie.LottieAnimationView;
 import com.crazy.base.action.ActivityAction;
 import com.crazy.widget.layout.SimpleLayout;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 import java.io.File;
 import java.util.Formatter;

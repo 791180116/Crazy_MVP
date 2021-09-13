@@ -6,8 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.aimo.aiapp.app.AppActivity;
-import com.crazy.demo.R;
+import com.aimo.app.base.AppActivity;
+import com.aimo.app.ui.activity.MainActivity;
+import com.aimo.app.ui.activity.SplashActivity;
+import com.aimo.aiapp.R;
 
 /**
  *    author : NG_crazy
@@ -54,7 +56,7 @@ public final class RestartActivity extends AppActivity {
             intent = new Intent(context, SplashActivity.class);
         } else {
             // 如果是已登录的情况下跳转到首页
-            intent = new Intent(context, HomeActivity.class);
+            intent = new Intent(context, MainActivity.class);
         }
 
         if (!(context instanceof Activity)) {

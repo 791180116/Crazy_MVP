@@ -1,4 +1,4 @@
-package com.aimo.aiapp.app;
+package com.aimo.app.base;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +14,7 @@ import com.crazy.base.BaseDialog;
 import com.aimo.aiapp.action.TitleBarAction;
 import com.aimo.aiapp.action.ToastAction;
 import com.gyf.immersionbar.ImmersionBar;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.ui.dialog.WaitDialog;
 import com.hjq.bar.TitleBar;
 import com.hjq.http.listener.OnHttpListener;

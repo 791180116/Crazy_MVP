@@ -10,7 +10,7 @@ import androidx.lifecycle.LifecycleOwner;
 
 import com.aimo.aiapp.manager.ActivityManager;
 import com.google.gson.JsonSyntaxException;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.ui.activity.LoginActivity;
 import com.hjq.gson.factory.GsonFactory;
 import com.hjq.http.EasyLog;

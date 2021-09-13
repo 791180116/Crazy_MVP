@@ -1,4 +1,5 @@
-package com.aimo.aiapp.ui.activity;
+package com.aimo.app.ui.activity;
+
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,16 +7,16 @@ import android.view.View;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.AppActivity;
-import com.crazy.demo.R;
+import com.aimo.app.base.AppActivity;
+import com.blankj.utilcode.util.SPUtils;
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.ui.adapter.GuideAdapter;
 
 import me.relex.circleindicator.CircleIndicator3;
 
 /**
- *    author : NG_crazy
- *    time   : 2019/09/21
- *    desc   : 应用引导页
+ * author : NG_crazy
+ * desc   : 应用引导页
  */
 public final class GuideActivity extends AppActivity {
 
@@ -58,7 +59,8 @@ public final class GuideActivity extends AppActivity {
     @Override
     public void onClick(View view) {
         if (view == mCompleteView) {
-            HomeActivity.start(getContext());
+            MainActivity.start(getContext());
+            SPUtils.getInstance("Start").put("isNotFirst", true);
             finish();
         }
     }

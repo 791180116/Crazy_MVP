@@ -1,4 +1,4 @@
-package com.aimo.aiapp.app;
+package com.aimo.app.base;
 
 import android.content.Context;
 import android.view.View;

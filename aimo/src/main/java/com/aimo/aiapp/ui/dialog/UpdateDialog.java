@@ -21,7 +21,7 @@ import com.aimo.aiapp.aop.Permissions;
 import com.aimo.aiapp.aop.SingleClick;
 import com.aimo.aiapp.other.AppConfig;
 import com.crazy.base.BaseDialog;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.http.EasyHttp;
 import com.hjq.http.listener.OnDownloadListener;
 import com.hjq.http.model.HttpMethod;

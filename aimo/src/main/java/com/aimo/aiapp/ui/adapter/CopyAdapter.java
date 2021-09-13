@@ -5,9 +5,9 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 
-import com.aimo.aiapp.app.AppAdapter;
+import com.aimo.app.base.AppAdapter;
 import com.crazy.base.BaseAdapter;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 /**
  *    author : NG_crazy

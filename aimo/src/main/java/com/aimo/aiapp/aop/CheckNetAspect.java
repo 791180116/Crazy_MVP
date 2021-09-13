@@ -7,7 +7,7 @@ import android.net.NetworkInfo;
 import androidx.core.content.ContextCompat;
 
 import com.aimo.aiapp.manager.ActivityManager;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.toast.ToastUtils;
 
 import org.aspectj.lang.ProceedingJoinPoint;

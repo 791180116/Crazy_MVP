@@ -1,7 +1,6 @@
 package com.crazy.base;
 
 import com.crazy.base.imageloader.ILoader;
-import com.crazy.base.router.Router;
 import com.crazy.base.util.Kits;
 
 
@@ -17,10 +16,6 @@ public class XDroidConf {
     // #cache
     public static String CACHE_SP_NAME = "config";
     public static String CACHE_DISK_DIR = "cache";
-
-    // #router
-    public static int ROUTER_ANIM_ENTER = Router.RES_NONE;
-    public static int ROUTER_ANIM_EXIT = Router.RES_NONE;
 
     // #imageloader
     public static int IL_LOADING_RES = ILoader.Options.RES_NONE;

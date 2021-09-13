@@ -10,13 +10,13 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.aimo.aiapp.app.AppAdapter;
+import com.aimo.aiapp.http.glide.GlideApp;
+import com.aimo.app.base.AppAdapter;
 import com.aimo.aiapp.ui.activity.VideoSelectActivity;
 import com.crazy.base.BaseAdapter;
-import com.aimo.aiapp.http.glide.GlideApp;
 import com.aimo.aiapp.manager.CacheDataManager;
 import com.aimo.aiapp.widget.PlayerView;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 import java.util.List;
 

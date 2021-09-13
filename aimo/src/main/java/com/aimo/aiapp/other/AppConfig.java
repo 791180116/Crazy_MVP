@@ -1,6 +1,7 @@
 package com.aimo.aiapp.other;
 
-import com.crazy.demo.BuildConfig;
+
+import com.aimo.aiapp.BuildConfig;
 
 /**
  *    author : NG_crazy

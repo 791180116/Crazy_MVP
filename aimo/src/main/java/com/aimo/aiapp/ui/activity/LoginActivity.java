@@ -20,17 +20,17 @@ import androidx.annotation.Nullable;
 
 import com.aimo.aiapp.aop.DebugLog;
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.aimo.aiapp.http.model.HttpData;
 import com.aimo.aiapp.http.request.LoginApi;
 import com.aimo.aiapp.http.response.LoginBean;
 import com.aimo.aiapp.other.IntentKey;
-import com.aimo.aiapp.ui.fragment.MeFragment;
-import com.aimo.aiapp.http.glide.GlideApp;
+import com.aimo.app.ui.fragment.SettingFragment;
 import com.aimo.aiapp.manager.InputTextManager;
 import com.aimo.aiapp.other.KeyboardWatcher;
+import com.aimo.app.ui.activity.MainActivity;
 import com.crazy.widget.view.SubmitButton;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.http.EasyConfig;
 import com.hjq.http.EasyHttp;
 import com.hjq.http.listener.HttpCallback;
@@ -163,7 +163,7 @@ public final class LoginActivity extends AppActivity
                 postDelayed(() -> {
                     mCommitView.showSucceed();
                     postDelayed(() -> {
-                        HomeActivity.start(getContext(), MeFragment.class);
+                        MainActivity.start(getContext(), SettingFragment.class);
                         finish();
                     }, 1000);
                 }, 2000);
@@ -193,7 +193,7 @@ public final class LoginActivity extends AppActivity
                                 mCommitView.showSucceed();
                                 postDelayed(() -> {
                                     // 跳转到首页
-                                    HomeActivity.start(getContext(), MeFragment.class);
+                                    MainActivity.start(getContext(), SettingFragment.class);
                                     finish();
                                 }, 1000);
                             }, 1000);

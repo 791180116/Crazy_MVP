@@ -2,8 +2,8 @@ package com.aimo.aiapp.ui.fragment;
 
 import android.os.Bundle;
 
-import com.aimo.aiapp.app.AppFragment;
-import com.crazy.demo.R;
+import com.aimo.app.base.AppFragment;
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.ui.activity.CopyActivity;
 
 /**

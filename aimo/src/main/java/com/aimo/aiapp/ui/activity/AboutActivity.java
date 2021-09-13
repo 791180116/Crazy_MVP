@@ -3,8 +3,8 @@ package com.aimo.aiapp.ui.activity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.aimo.aiapp.app.AppActivity;
-import com.crazy.demo.R;
+import com.aimo.app.base.AppActivity;
+import com.aimo.aiapp.R;
 
 /**
  *    author : NG_crazy

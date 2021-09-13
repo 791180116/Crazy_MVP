@@ -1,32 +1,31 @@
-package com.aimo.aiapp.ui.fragment;
+package com.aimo.app.ui.fragment;
 
 import android.os.Bundle;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.aimo.aiapp.app.TitleBarFragment;
-import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
-import com.aimo.aiapp.app.AppFragment;
 import com.aimo.aiapp.http.glide.GlideApp;
-import com.crazy.demo.R;
+import com.aimo.app.base.TitleBarFragment;
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
+import com.aimo.app.base.AppFragment;
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.aop.Permissions;
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.ui.activity.HomeActivity;
+import com.aimo.app.ui.activity.MainActivity;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;
 
 /**
  *    author : NG_crazy
- *    time   : 2018/10/18
- *    desc   : 消息 Fragment
+ *    desc   : 任务 Fragment
  */
-public final class MessageFragment extends TitleBarFragment<HomeActivity> {
+public final class TaskFragment extends TitleBarFragment<MainActivity> {
 
     private ImageView mImageView;
 
-    public static MessageFragment newInstance() {
-        return new MessageFragment();
+    public static TaskFragment newInstance() {
+        return new TaskFragment();
     }
 
     @Override
@@ -36,7 +35,7 @@ public final class MessageFragment extends TitleBarFragment<HomeActivity> {
 
     @Override
     public int getLayoutId() {
-        return R.layout.message_fragment;
+        return R.layout.task_fragment;
     }
 
     @Override
@@ -108,7 +107,7 @@ public final class MessageFragment extends TitleBarFragment<HomeActivity> {
 
         } else if (viewId == R.id.btn_message_tab) {
 
-            HomeActivity.start(getActivity(), (Class<? extends AppFragment<?>>) HomeFragment.class);
+            MainActivity.start(getActivity(), (Class<? extends AppFragment<?>>) RobotFragment.class);
         }
     }
 

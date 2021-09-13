@@ -25,12 +25,12 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.AppActivity;
-import com.aimo.aiapp.app.APP;
 import com.aimo.aiapp.http.glide.GlideApp;
+import com.aimo.app.base.AppActivity;
+import com.aimo.app.APP;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.toast.ToastUtils;
 
 import java.io.File;

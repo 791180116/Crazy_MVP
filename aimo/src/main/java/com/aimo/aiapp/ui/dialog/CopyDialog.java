@@ -4,7 +4,7 @@ import android.content.Context;
 import android.view.Gravity;
 
 import com.crazy.base.BaseDialog;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 /**
  *    author : NG_crazy

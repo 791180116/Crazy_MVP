@@ -14,13 +14,13 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.aimo.aiapp.aop.CheckNet;
 import com.aimo.aiapp.aop.DebugLog;
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.aimo.aiapp.other.IntentKey;
 import com.crazy.base.BaseAdapter;
 import com.crazy.base.RecyclerPagerAdapter;
 import com.gyf.immersionbar.BarHide;
 import com.gyf.immersionbar.ImmersionBar;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.ui.adapter.ImagePreviewAdapter;
 
 import java.util.ArrayList;

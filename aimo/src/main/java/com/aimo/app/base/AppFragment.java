@@ -1,4 +1,4 @@
-package com.aimo.aiapp.app;
+package com.aimo.app.base;
 
 import com.aimo.aiapp.http.model.HttpData;
 import com.crazy.base.BaseFragment;

@@ -14,12 +14,12 @@ import android.widget.TextView;
 
 import com.aimo.aiapp.aop.DebugLog;
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.aimo.aiapp.http.model.HttpData;
 import com.aimo.aiapp.http.request.PasswordApi;
 import com.aimo.aiapp.other.IntentKey;
 import com.aimo.aiapp.manager.InputTextManager;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.ui.dialog.HintDialog;
 import com.hjq.http.EasyHttp;
 import com.hjq.http.listener.HttpCallback;

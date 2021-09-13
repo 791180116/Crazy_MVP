@@ -1,4 +1,4 @@
-package com.aimo.aiapp.ui.fragment;
+package com.aimo.app.ui.fragment;
 
 import android.annotation.SuppressLint;
 import android.content.res.ColorStateList;
@@ -11,22 +11,27 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 import androidx.viewpager.widget.ViewPager;
 
-import com.aimo.aiapp.app.AppFragment;
-import com.aimo.aiapp.app.TitleBarFragment;
+import com.aimo.app.base.AppFragment;
+import com.aimo.app.base.TitleBarFragment;
+import com.aimo.aiapp.http.model.HttpData;
+import com.aimo.aiapp.http.request.getVehicleBaseInfoApi;
+import com.aimo.aiapp.ui.fragment.BrowserFragment;
+import com.aimo.aiapp.ui.fragment.StatusFragment;
+import com.blankj.utilcode.util.LogUtils;
 import com.crazy.base.FragmentPagerAdapter;
 import com.aimo.aiapp.widget.XCollapsingToolbarLayout;
 import com.google.android.material.tabs.TabLayout;
 import com.gyf.immersionbar.ImmersionBar;
-import com.crazy.demo.R;
-import com.aimo.aiapp.ui.activity.HomeActivity;
+import com.aimo.aiapp.R;
+import com.aimo.app.ui.activity.MainActivity;
+import com.hjq.http.EasyHttp;
+import com.hjq.http.listener.OnHttpListener;
 
 /**
  * author : NG_crazy
- * 
- * time   : 2018/10/18
  * desc   : 首页 Fragment
  */
-public final class HomeFragment extends TitleBarFragment<HomeActivity>
+public final class RobotFragment extends TitleBarFragment<MainActivity>
         implements XCollapsingToolbarLayout.OnScrimsListener {
 
     private XCollapsingToolbarLayout mCollapsingToolbarLayout;
@@ -40,18 +45,31 @@ public final class HomeFragment extends TitleBarFragment<HomeActivity>
     private ViewPager mViewPager;
     private FragmentPagerAdapter<AppFragment<?>> mPagerAdapter;
 
-    public static HomeFragment newInstance() {
-        return new HomeFragment();
+    public static RobotFragment newInstance() {
+        return new RobotFragment();
     }
 
     @Override
     public void initData(Bundle savedInstanceState) {
+        EasyHttp.get(this)
+                .api(new getVehicleBaseInfoApi().setDeptId("10"))
+                .request(new OnHttpListener<HttpData<Object>>() {
+                    @Override
+                    public void onSucceed(HttpData<Object> result) {
+                        LogUtils.d(result.getData().toString());
+                    }
+
+                    @Override
+                    public void onFail(Exception e) {
+
+                    }
+                });
 
     }
 
     @Override
     public int getLayoutId() {
-        return R.layout.home_fragment;
+        return R.layout.robot_fragment;
     }
 
     @Override

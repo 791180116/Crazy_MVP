@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.aimo.aiapp.ui.fragment.MeFragment">
+    tools:context="com.aimo.app.ui.fragment.SettingFragment">
 
     <com.hjq.bar.TitleBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:backButton="false"
-        app:title="@string/home_nav_me" />
+        app:title="@string/home_nav_setting" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

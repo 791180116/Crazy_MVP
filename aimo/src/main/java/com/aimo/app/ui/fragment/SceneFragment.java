@@ -1,4 +1,4 @@
-package com.aimo.aiapp.ui.fragment;
+package com.aimo.app.ui.fragment;
 
 import android.os.Bundle;
 import android.util.TypedValue;
@@ -6,24 +6,22 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.TitleBarFragment;
+import com.aimo.aiapp.http.glide.GlideApp;
+import com.aimo.app.base.TitleBarFragment;
 import com.bumptech.glide.load.MultiTransformation;
 import com.bumptech.glide.load.resource.bitmap.CenterCrop;
 import com.bumptech.glide.load.resource.bitmap.CircleCrop;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
-import com.aimo.aiapp.http.glide.GlideApp;
 import com.crazy.widget.view.CountdownView;
 import com.crazy.widget.view.SwitchButton;
-import com.crazy.demo.R;
-import com.aimo.aiapp.ui.activity.HomeActivity;
+import com.aimo.aiapp.R;
+import com.aimo.app.ui.activity.MainActivity;
 
 /**
  * author : NG_crazy
- * 
- * time   : 2018/10/18
- * desc   : 发现 Fragment
+ * desc   : 场景 Fragment
  */
-public final class FindFragment extends TitleBarFragment<HomeActivity>
+public final class SceneFragment extends TitleBarFragment<MainActivity>
         implements SwitchButton.OnCheckedChangeListener {
 
     private ImageView mCircleView;
@@ -31,13 +29,13 @@ public final class FindFragment extends TitleBarFragment<HomeActivity>
     private SwitchButton mSwitchButton;
     private CountdownView mCountdownView;
 
-    public static FindFragment newInstance() {
-        return new FindFragment();
+    public static SceneFragment newInstance() {
+        return new SceneFragment();
     }
 
     @Override
     public int getLayoutId() {
-        return R.layout.find_fragment;
+        return R.layout.scene_fragment;
     }
 
     @Override

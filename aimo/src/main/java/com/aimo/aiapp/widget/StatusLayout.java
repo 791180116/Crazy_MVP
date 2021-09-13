@@ -18,7 +18,7 @@ import androidx.annotation.StringRes;
 import androidx.core.content.ContextCompat;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 /**
  *    author : NG_crazy

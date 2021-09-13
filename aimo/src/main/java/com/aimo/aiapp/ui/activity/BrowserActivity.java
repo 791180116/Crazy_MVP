@@ -16,12 +16,12 @@ import androidx.annotation.NonNull;
 
 import com.aimo.aiapp.aop.CheckNet;
 import com.aimo.aiapp.aop.DebugLog;
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.aimo.aiapp.other.IntentKey;
 import com.aimo.aiapp.action.StatusAction;
 import com.aimo.aiapp.widget.BrowserView;
 import com.aimo.aiapp.widget.StatusLayout;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.scwang.smart.refresh.layout.SmartRefreshLayout;
 import com.scwang.smart.refresh.layout.api.RefreshLayout;
 import com.scwang.smart.refresh.layout.listener.OnRefreshListener;

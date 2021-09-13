@@ -7,11 +7,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.aimo.aiapp.app.AppActivity;
-import com.aimo.aiapp.app.TitleBarFragment;
+import com.aimo.app.base.AppActivity;
+import com.aimo.app.base.TitleBarFragment;
 import com.crazy.base.BaseAdapter;
 import com.crazy.widget.layout.WrapRecyclerView;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.ui.adapter.StatusAdapter;
 import com.scwang.smart.refresh.layout.SmartRefreshLayout;
 import com.scwang.smart.refresh.layout.api.RefreshLayout;

@@ -134,7 +134,7 @@ dependencies {
     // 控件封装
     implementation project(':widget')
     // 友盟封装
-    implementation project(':umeng')
+    //implementation project(':umeng')
     //涂鸦
     implementation project(':doodle')
 
@@ -210,6 +210,4 @@ dependencies {
     // 第三方支付：https://github.com/Cuieney/RxPay
     // 多渠道打包：https://github.com/Meituan-Dianping/walle
     // 设备唯一标识：http://msa-alliance.cn/col.jsp?id=120
-
-    api 'com.blankj:utilcode:1.30.6'
 }

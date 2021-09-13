@@ -1,4 +1,4 @@
-package com.aimo.aiapp.ui.activity;
+package com.aimo.app.ui.activity;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -8,22 +8,22 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.aimo.aiapp.http.model.HttpData;
 import com.aimo.aiapp.http.request.UserInfoApi;
 import com.aimo.aiapp.http.response.UserInfoBean;
 import com.aimo.aiapp.other.AppConfig;
 import com.airbnb.lottie.LottieAnimationView;
+import com.blankj.utilcode.util.SPUtils;
 import com.crazy.widget.view.SlantedTextView;
 import com.gyf.immersionbar.BarHide;
 import com.gyf.immersionbar.ImmersionBar;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.http.EasyHttp;
 import com.hjq.http.listener.HttpCallback;
 
 /**
  * author : NG_crazy
- * time   : 2018/10/18
  * desc   : 闪屏界面
  */
 public final class SplashActivity extends AppActivity {
@@ -51,10 +51,10 @@ public final class SplashActivity extends AppActivity {
             @Override
             public void onAnimationEnd(Animator animation) {
                 mLottieView.removeAnimatorListener(this);
-                if (true) {
-                    startActivity(GuideActivity.class);
+                if (SPUtils.getInstance("Start").getBoolean("isNotFirst", false)) {
+                    MainActivity.start(getContext());
                 } else {
-                    HomeActivity.start(getContext());
+                    startActivity(GuideActivity.class);
                 }
                 finish();
             }

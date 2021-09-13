@@ -1,4 +1,4 @@
-package com.aimo.aiapp.ui.fragment;
+package com.aimo.app.ui.fragment;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.TitleBarFragment;
+import com.aimo.app.base.TitleBarFragment;
 import com.aimo.aiapp.ui.activity.Correction2Activity;
 import com.aimo.aiapp.ui.activity.ImagePreviewActivity;
 import com.aimo.aiapp.ui.activity.ImageSelectActivity;
@@ -16,12 +16,12 @@ import com.aimo.aiapp.ui.activity.PhoneResetActivity;
 import com.aimo.aiapp.ui.activity.RegisterActivity;
 import com.aimo.aiapp.ui.activity.VideoPlayActivity;
 import com.aimo.aiapp.ui.activity.VideoSelectActivity;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.ui.activity.AboutActivity;
 import com.aimo.aiapp.ui.activity.BrowserActivity;
 import com.aimo.aiapp.ui.activity.DialogActivity;
-import com.aimo.aiapp.ui.activity.GuideActivity;
-import com.aimo.aiapp.ui.activity.HomeActivity;
+import com.aimo.app.ui.activity.GuideActivity;
+import com.aimo.app.ui.activity.MainActivity;
 import com.aimo.aiapp.ui.activity.LoginActivity;
 import com.aimo.aiapp.ui.activity.PasswordForgetActivity;
 import com.aimo.aiapp.ui.activity.PasswordResetActivity;
@@ -36,18 +36,17 @@ import java.util.List;
 
 /**
  * author : NG_crazy
- * time   : 2018/10/18
- * desc   : 我的 Fragment
+ * desc   : 设置 Fragment
  */
-public final class MeFragment extends TitleBarFragment<HomeActivity> {
+public final class SettingFragment extends TitleBarFragment<MainActivity> {
 
-    public static MeFragment newInstance() {
-        return new MeFragment();
+    public static SettingFragment newInstance() {
+        return new SettingFragment();
     }
 
     @Override
     public int getLayoutId() {
-        return R.layout.me_fragment;
+        return R.layout.setting_fragment;
     }
 
     @Override

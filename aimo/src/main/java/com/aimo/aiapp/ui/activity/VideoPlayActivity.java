@@ -10,12 +10,12 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.aimo.aiapp.other.IntentKey;
 import com.aimo.aiapp.widget.PlayerView;
 import com.gyf.immersionbar.BarHide;
 import com.gyf.immersionbar.ImmersionBar;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 import java.io.File;
 

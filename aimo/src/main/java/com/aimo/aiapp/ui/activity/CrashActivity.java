@@ -21,12 +21,12 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.aimo.aiapp.other.AppConfig;
 import com.aimo.aiapp.other.IntentKey;
 import com.aimo.aiapp.manager.ThreadPoolManager;
 import com.gyf.immersionbar.ImmersionBar;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;
 

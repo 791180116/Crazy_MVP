@@ -1,4 +1,4 @@
-package com.aimo.aiapp.ui.activity;
+package com.aimo.app.ui.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,25 +11,24 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.ViewPager;
 
-import com.aimo.aiapp.app.AppActivity;
-import com.aimo.aiapp.app.AppFragment;
+import com.aimo.app.base.AppActivity;
+import com.aimo.app.base.AppFragment;
 import com.aimo.aiapp.other.IntentKey;
-import com.aimo.aiapp.ui.fragment.FindFragment;
-import com.aimo.aiapp.ui.fragment.HomeFragment;
-import com.aimo.aiapp.ui.fragment.MeFragment;
-import com.aimo.aiapp.ui.fragment.MessageFragment;
+import com.aimo.app.ui.fragment.SceneFragment;
+import com.aimo.app.ui.fragment.RobotFragment;
+import com.aimo.app.ui.fragment.SettingFragment;
+import com.aimo.app.ui.fragment.TaskFragment;
 import com.crazy.base.FragmentPagerAdapter;
 import com.aimo.aiapp.manager.ActivityManager;
 import com.aimo.aiapp.other.DoubleClickHelper;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 /**
  *    author : NG_crazy
- *    time   : 2018/10/18
- *    desc   : 首页界面
+ *    desc   : 主Activity
  */
-public final class HomeActivity extends AppActivity
+public final class MainActivity extends AppActivity
         implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     private ViewPager mViewPager;
@@ -38,11 +37,11 @@ public final class HomeActivity extends AppActivity
     private FragmentPagerAdapter<AppFragment<?>> mPagerAdapter;
 
     public static void start(Context context) {
-        start(context, (Class<? extends AppFragment<?>>) HomeFragment.class);
+        start(context, (Class<? extends AppFragment<?>>) RobotFragment.class);
     }
 
     public static void start(Context context, Class<? extends AppFragment<?>> fragmentClass) {
-        Intent intent = new Intent(context, HomeActivity.class);
+        Intent intent = new Intent(context, MainActivity.class);
         intent.putExtra(IntentKey.INDEX, fragmentClass);
         if (!(context instanceof Activity)) {
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -52,7 +51,7 @@ public final class HomeActivity extends AppActivity
 
     @Override
     public int getLayoutId() {
-        return R.layout.home_activity;
+        return R.layout.main_activity;
     }
 
     @Override
@@ -80,10 +79,10 @@ public final class HomeActivity extends AppActivity
     @Override
     public void initData(Bundle savedInstanceState) {
         mPagerAdapter = new FragmentPagerAdapter<>(this);
-        mPagerAdapter.addFragment(HomeFragment.newInstance());
-        mPagerAdapter.addFragment(FindFragment.newInstance());
-        mPagerAdapter.addFragment(MessageFragment.newInstance());
-        mPagerAdapter.addFragment(MeFragment.newInstance());
+        mPagerAdapter.addFragment(RobotFragment.newInstance());
+        mPagerAdapter.addFragment(SceneFragment.newInstance());
+        mPagerAdapter.addFragment(TaskFragment.newInstance());
+        mPagerAdapter.addFragment(SettingFragment.newInstance());
         mViewPager.setAdapter(mPagerAdapter);
 
         onNewIntent(getIntent());

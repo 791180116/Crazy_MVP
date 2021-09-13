@@ -6,7 +6,7 @@ import android.os.Build;
 
 import com.aimo.aiapp.manager.ActivityManager;
 import com.aimo.aiapp.ui.dialog.MessageDialog;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.permissions.OnPermissionCallback;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;

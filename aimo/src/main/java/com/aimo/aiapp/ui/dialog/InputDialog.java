@@ -11,7 +11,7 @@ import androidx.annotation.StringRes;
 
 import com.aimo.aiapp.aop.SingleClick;
 import com.crazy.base.BaseDialog;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 /**
  *    author : NG_crazy

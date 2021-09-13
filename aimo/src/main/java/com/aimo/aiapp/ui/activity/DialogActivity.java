@@ -9,12 +9,12 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.crazy.base.BaseDialog;
 import com.aimo.aiapp.manager.DialogManager;
 import com.aimo.aiapp.ui.dialog.PayPasswordDialog;
 import com.aimo.aiapp.ui.dialog.SafeDialog;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.ui.dialog.AddressDialog;
 import com.aimo.aiapp.ui.dialog.DateDialog;
 import com.aimo.aiapp.ui.dialog.HintDialog;

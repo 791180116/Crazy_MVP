@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.aimo.aiapp.aop.DebugLog;
 import com.aimo.aiapp.aop.Permissions;
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.aimo.aiapp.other.IntentKey;
 import com.crazy.base.BaseActivity;
 import com.crazy.base.BaseAdapter;
@@ -27,7 +27,7 @@ import com.aimo.aiapp.ui.adapter.ImageSelectAdapter;
 import com.aimo.aiapp.ui.dialog.AlbumDialog;
 import com.aimo.aiapp.widget.StatusLayout;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;
 

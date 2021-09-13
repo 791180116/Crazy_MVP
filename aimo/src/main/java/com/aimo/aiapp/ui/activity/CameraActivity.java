@@ -13,11 +13,11 @@ import androidx.core.content.FileProvider;
 
 import com.aimo.aiapp.aop.DebugLog;
 import com.aimo.aiapp.aop.Permissions;
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.aimo.aiapp.other.AppConfig;
 import com.aimo.aiapp.other.IntentKey;
 import com.crazy.base.BaseActivity;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;
 

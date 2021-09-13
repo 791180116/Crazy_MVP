@@ -28,4 +28,8 @@ public final class VerifyCodeApi implements IRequestApi {
         this.code = code;
         return this;
     }
+
+    final class url{
+        static final String login = "url";
+    }
 }

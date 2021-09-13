@@ -5,10 +5,10 @@ import android.view.View;
 
 import androidx.core.content.ContextCompat;
 
-import com.aimo.aiapp.app.AppActivity;
+import com.aimo.app.base.AppActivity;
 import com.aimo.aiapp.action.StatusAction;
 import com.aimo.aiapp.widget.StatusLayout;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 import com.aimo.aiapp.ui.dialog.MenuDialog;
 
 /**

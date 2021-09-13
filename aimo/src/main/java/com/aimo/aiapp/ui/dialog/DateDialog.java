@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.aimo.aiapp.aop.SingleClick;
-import com.aimo.aiapp.app.AppAdapter;
+import com.aimo.app.base.AppAdapter;
 import com.crazy.base.BaseAdapter;
 import com.crazy.base.BaseDialog;
 import com.aimo.aiapp.manager.PickerLayoutManager;
-import com.crazy.demo.R;
+import com.aimo.aiapp.R;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
